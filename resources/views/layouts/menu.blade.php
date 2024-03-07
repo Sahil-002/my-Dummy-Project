@@ -5,3 +5,9 @@
         <p>Home</p>
     </a>
 </li>
+<li class="nav-item">
+    <a href="{{ route('manage-user') }}" class="nav-link {{ Request::is('manage-user') ? 'active' : '' }}">
+        <i class="nav-icon fas fa-users"></i>
+        <p>Manage Users</p>
+    </a>
+</li>
